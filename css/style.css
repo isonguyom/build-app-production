@@ -1,0 +1,49 @@
+body {
+    background: url(../images/backgro.jpg);
+    background-size: cover;
+    background-blend-mode: soft-light;
+    background-color: rgb(96, 96, 202);
+    color: white;
+}
+
+.div1 {
+    width: 20%;
+    margin: 100px;
+    float: left;
+}
+
+.div2 {
+    width: 30%;
+    float: right;
+    position: relative;
+    top: 270px;
+    text-align: center;
+    right: 200px;
+}
+
+.div1 h1 {
+    color: black;
+}
+
+.div2 p {
+    font-size: 0.8em;
+    color: rgb(173, 173, 173);
+}
+
+input {
+    width: 83%;
+    height: 30px;
+    margin-bottom: 10px;
+    background-color: white;
+    border: solid 1px green;
+}
+
+button {
+    width: 81.5%;
+    height: 32px;
+    background-color: green;
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    border: none;
+}
